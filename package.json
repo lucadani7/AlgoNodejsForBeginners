@@ -1,0 +1,33 @@
+{
+  "name": "@lucadani7/algonodejs-for-beginners",
+  "version": "1.0.0",
+  "description": "Just a simple Node.js package with some basic algorithms perfect for people just starting out. It's got easy-to-understand TypeScript versions of stuff like sorting, searching, math with numbers, and messing with strings.",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "tsc",
+    "watch": "tsc -w",
+    "dev": "nodemon dist/index.js"
+  },
+  "keywords": [
+    "beginners",
+    "algorithms",
+    "node",
+    "typescript"
+  ],
+  "author": "Luca Daniel Ionescu <lucaionescu1998@gmail.com>",
+  "license": "Apache-2.0",
+  "type": "commonjs",
+  "files": [
+    "dist"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/lucadani7/AlgoNodejsForBeginners.git"
+  },
+  "homepage": "https://github.com/lucadani7/AlgoNodejsForBeginners#readme",
+  "devDependencies": {
+    "@types/node": "^24.0.13",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.8.3"
+  }
+}

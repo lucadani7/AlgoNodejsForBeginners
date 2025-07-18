@@ -1,0 +1,1 @@
+export type Congruence = { a: number, m: number };
